@@ -1,5 +1,20 @@
 # Changelog
 
+## \[2.0.0-rc.6]
+
+### New Features
+
+- [`9014a3f17`](https://www.github.com/tauri-apps/tauri/commit/9014a3f1765ca406ea5c3e5224267a79c52cd53d) ([#11066](https://www.github.com/tauri-apps/tauri/pull/11066) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Add `WebviewWindow.clearAllBrowsingData` and `Webview.clearAllBrowsingData` to clear the webview browsing data.
+- [`95df53a2e`](https://www.github.com/tauri-apps/tauri/commit/95df53a2ed96873cd35a4b14a5e312d07e4e3004) ([#11143](https://www.github.com/tauri-apps/tauri/pull/11143) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Add the ability to set theme dynamically using `Window.setTheme` or `setTheme` function from the `app` module
+
+### Bug Fixes
+
+- [`948772a65`](https://www.github.com/tauri-apps/tauri/commit/948772a657eb3caf20843628abac9109e3b67d41) ([#11114](https://www.github.com/tauri-apps/tauri/pull/11114) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Change the `button_state` tray event field to camelCase `buttonState`.
+
+### Breaking Changes
+
+- [`0b4495996`](https://www.github.com/tauri-apps/tauri/commit/0b4495996d3131a5ee80fbb2c71a28203e491ee7) ([#11121](https://www.github.com/tauri-apps/tauri/pull/11121) by [@amrbashir](https://www.github.com/tauri-apps/tauri/../../amrbashir)) Simplified emitted tray event JS value and updated `TrayIconEvent` type definition to match it.
+
 ## \[2.0.0-rc.5]
 
 ### New Features
